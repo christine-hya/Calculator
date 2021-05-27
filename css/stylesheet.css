@@ -8,6 +8,7 @@ body{
     width: 435px;
     background-color: #93827f;
     margin: auto;
+    border: none;
 }
 
 .displayTextstyle {
@@ -15,6 +16,8 @@ body{
     padding-top: 10%;
     padding-right: 5%;
     color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
 }
 
 .calc{
@@ -50,9 +53,15 @@ body{
 
 .operators{
     display: inline-block;
-    float: right;
+    /* float: right; */
     width: 100px;
 }
+
+
+.clear{
+    display: inline-block;
+    transform: translate(-106px, -215px);
+} 
 
 .operators button{
     width: 100px;
@@ -66,16 +75,9 @@ body{
 }
 
 .equals{
-    display: block;
-    width: 220px;
+    width: 100px;
     background-color: #bcd8b7 !important;
     filter: drop-shadow(3px 0px 2px rgb(182, 180, 180))!important;
-    
-    /* transform: translateX(-110px); */
-}
-
-#equals{
-   width: 200px;
     transform: translate(-215px, -106px);
-    border-radius: 40px;
+    
 }
